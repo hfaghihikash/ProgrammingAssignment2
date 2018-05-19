@@ -41,3 +41,13 @@ makeCacheMatrix <- function(x=matrix()) {
     x$setsolve(s)
     s
     }
+    
+## Sample run:    
+#> x <- matrix(c(4,2,7,6),2,2)
+#> a <- makeCacheMatrix(x)
+#   > cacheSolve(a)
+#    [,1] [,2]
+#    [1,]  0.6 -0.7
+#    [2,] -0.2  0.4
+    
+    
